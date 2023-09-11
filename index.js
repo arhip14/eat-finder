@@ -119,6 +119,6 @@ async function performSearch() {
 
 
 window.addEventListener('load', () => {
-    searchInput.value = 'chicken';
+    searchInput.value = '';
     performSearch();
 });
